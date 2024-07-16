@@ -18,7 +18,61 @@
             </p>
         </div>
 
-        <div id="right"></div>
+        <div id="right">
+            <div id="top">
+                <h2>This is not a real online!
+            You know you need something this in
+            in your life to help you realize your
+            deepest dreams. Sign up <em>now</em> to get started.
+                </h2>
+
+                <h2>You know <em>you</em> want to.</h2>
+            </div>
+
+            <div id="mid">
+                <p id="doThis">Let's do this!</p>
+                <form>
+
+                    <div class="floatL" style="float: left;">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" value="">
+                    </div>
+
+                    <div class="floatR" style="float: middle;">
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="fname" name="fname" value="">
+                    </div>
+
+                    <div class="floatL" style="float: left;">
+                        <label for="email">Email</label><br>
+                        <input type="email" id="email" pattern=".+@example\.com" size="20" required />
+                    </div>
+
+                    <div class="floatR" style="float: middle;">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="number" id="number" name="phone" size="20" />
+                    </div>
+
+                    <div class="floatL" style="float: left;">
+                        <label for="password">Password</label><br>
+                        <input type="password" id="password"
+                        oninvalid="this.setCustomValidity('*Passwords do not match')"
+                        oninput="this.setCustomValidity('')" required />
+                    </div>
+
+                    <div class="floatR" style="float: middle;">
+                        <label for="confirm">Confirm Password</label><br>
+                        <input type="password" id="confirmPassword" required />
+                    </div>
+
+
+                </form>
+            </div>
+            <div id="botom">
+                <button>Create Account</button>
+                <p id="already">Already have an account? <font color="green">Log in</font></p>
+            </div>
+        </div>
 
     </div>
 </body>
