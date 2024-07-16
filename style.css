@@ -1,0 +1,45 @@
+
+#main {
+    height: 100vh;
+}
+
+#left {
+    height: 100vh;
+    background-image: url("forestPic.jpg");
+    background-size: cover;
+    overflow: hidden;
+
+    display: flex;
+    flex-direction: column;
+}
+
+#odinLogo {
+    margin-top: 17%;
+}
+
+#logoTxt {
+
+    @font-face {
+        font-family: 'Norse';
+        src: 
+            url('Norse-Bold.otf') 
+            format('opentype');
+    }
+
+    height: 20vh;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+#authorInfo {
+    margin-top: 45%;
+    text-align: center;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
